@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8BF1A325-25D1-42DF-8CB6-8A9FF40856AA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>v2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C7B132DC-B6B1-41C7-9276-C6077CFE573E</key>
+		<string>https://bitbucket.org/technologies33/wordwise.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>v2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C7B132DC-B6B1-41C7-9276-C6077CFE573E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/technologies33/wordwise.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7B132DC-B6B1-41C7-9276-C6077CFE573E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7B132DC-B6B1-41C7-9276-C6077CFE573E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WordWiseBBRepo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

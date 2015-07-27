@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="14A329f" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Example" representedClassName="Example" syncable="YES">
+        <attribute name="example" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="term" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Mneuomic" representedClassName="Mneuomic" syncable="YES">
+        <attribute name="mneuomic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="term" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Term" representedClassName="Term" syncable="YES">
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="list" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TermsList" inverseName="word" inverseEntity="TermsList" syncable="YES"/>
+    </entity>
+    <entity name="TermsList" representedClassName="TermsList" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="word" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Term" inverseName="list" inverseEntity="Term" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Example" positionX="9" positionY="27" width="128" height="73"/>
+        <element name="Mneuomic" positionX="-270" positionY="108" width="128" height="73"/>
+        <element name="Term" positionX="-441" positionY="-42" width="128" height="73"/>
+        <element name="TermsList" positionX="-198" positionY="-81" width="128" height="73"/>
+    </elements>
+</model>
